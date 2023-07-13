@@ -1,0 +1,71 @@
+:root {
+  --nav-back-color: gainsboro;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: var(--nav-back-color);
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin: 0px;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-logo {
+  margin: 0px 20px;
+  padding: 15px 0px;
+
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+}
+
+.nav-link {
+  padding: 5px;
+}
+
+.nav-link:hover {
+  background-color: rgb(177, 177, 177);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav-menu {
+  margin: 10px 20px;
+  padding: auto;
+  font-weight: 600;
+  cursor: pointer;
+}
+.search-bar {
+  border: #cecdcd solid 1px;
+  background-color: #fbfbfb;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 0px;
+}
+.search-container {
+  position: relative;
+}
+.search-button {
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: #e1dfdf;
+  height: 27px;
+  width: 27px;
+}
